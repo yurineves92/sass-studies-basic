@@ -1,0 +1,23 @@
+$width-content: 960px;
+
+$color-primary: #3E8eBB;
+$button-hover-type: "darken";
+$button-hover-amount: 10;
+
+$color-green: #36BA9B;
+$color-blue: #39AED9;
+$color-yellow: #F5B946;
+$color-red: #D94352;
+$color-orange: #F4645F;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+    (
+        "green": $color-green,
+        "blue": $color-blue,
+        "yellow": $color-yellow,
+        "red": $color-red,
+        "orange": $color-orange
+    ),
+    $theme-colors
+);
